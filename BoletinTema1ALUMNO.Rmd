@@ -133,8 +133,13 @@ d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los 
 
 ```{r}
 
+# Utilizamos la función intetrsect y como argumentos ponemos los conjuntos a comparar, primero luego y depues el otro.
+commonAnimals_1 <- intersect(mammals, Animals2)
+commonAnimals_1
 
-
+# Lo mismo pero al revés.
+commonAnimals_2 <- intersect(Animals2, mammals)
+commonAnimals_2
 
 
 
