@@ -116,13 +116,15 @@ str(Animals2)
 
 
 
+#c) Muestra los nombres de las filas i las columnas:
 
+# Conjunto de datos mammals:
+rownames(mammals)
+colnames(mammals)
 
-
-
-
-
-
+# Conjunto de datos robustbase:
+rownames(Animals2)
+colnames(Animals2)
 
 
 ```
