@@ -92,8 +92,12 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
+# a)  Mira la las características de ambos conjuntos usando la ayuda:
+mammals
+help(package = MASS, topic = mammals)
 
-
+Animals2
+help(package = robustbase, topic = Animals2)
 
 
 
