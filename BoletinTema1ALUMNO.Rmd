@@ -227,9 +227,17 @@ any(is.na(cabbages))
 colSums(sapply(cabbages, is.na))
 
 
+# c) Repite los apartados anteriores con el conjunto de datos **Chile** del paquete **car**. 
 
+str(Chile)
+dim(Chile)
+head(Chile)
+tail(Chile)
 
-
+is.na(Chile)
+any(is.na(Chile))
+colSums(sapply(Chile, is.na))
+# Como podemos observar este si contiene valores perdidos.
 
 ```
 
