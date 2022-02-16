@@ -210,7 +210,11 @@ length(libReturn$results[,1])
 
 ```{r}
 
-
+# a)  Determina las tres primeras etapas para el conjunto de datos **cabbages** del paquete **MASS**:
+str(cabbages)
+dim(cabbages)
+head(cabbages)
+tail(cabbages)
 
 
 
