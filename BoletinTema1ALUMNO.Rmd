@@ -192,6 +192,9 @@ libReturn <- library()
 summary(libReturn)
 str(libReturn)
 
+# b)  Uno de los elementos de la lista es un matriz de caracteres. Muestra por pantalla los 5 primeros elementos de esta matriz usando la función head.
+head(libReturn$results, n = 5)
+
 
     ```
 
