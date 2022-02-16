@@ -100,7 +100,19 @@ Animals2
 help(package = robustbase, topic = Animals2)
 
 
+#b)Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
+# Conjunto de datos mammals:
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+# Conjunto de datos robustbase:
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
 
 
 
