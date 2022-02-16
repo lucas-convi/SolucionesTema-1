@@ -195,6 +195,9 @@ str(libReturn)
 # b)  Uno de los elementos de la lista es un matriz de caracteres. Muestra por pantalla los 5 primeros elementos de esta matriz usando la función head.
 head(libReturn$results, n = 5)
 
+# c)  Determina el número de librerías que tienes instaladas, en este caso son 216.
+length(libReturn$results[,1])
+
 
     ```
 
