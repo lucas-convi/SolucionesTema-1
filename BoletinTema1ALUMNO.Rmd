@@ -149,11 +149,13 @@ e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. �
 
 ```{r}
 
+# Aquí vemos lo animales que se encuentran en mammals pero no en Animales2.
+animalesDistintos_a <- setdiff(rownames(mammals), rownames(Animals2))
+animalesDistintos_a
 
-
-
-
-
+# Aquí vemos los animales que se encuentran en Animales2, pero no en mmamals.
+animalesDistintos_m <- setdiff(rownames(Animals2), rownames(mammals))
+animalesDistintos_m
 ```
 
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
