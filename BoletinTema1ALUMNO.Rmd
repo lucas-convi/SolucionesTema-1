@@ -217,23 +217,14 @@ head(cabbages)
 tail(cabbages)
 
 
+#  b)  Puedes determinar el número de valores perdidos (almacenados como **NA** en R) usando la función **is.na**. Determina el número de valores perdidos para cada una de las variables del conjunto **cabbages**:
 
+# Podemos ver en forma de matriz que es falso, es deicr, no hay ningun NA.
+is.na(cabbages)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Otra forma de verlo, es la siguiente:
+any(is.na(cabbages))
+colSums(sapply(cabbages, is.na))
 
 
 
