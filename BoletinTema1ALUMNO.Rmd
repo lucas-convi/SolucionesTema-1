@@ -161,7 +161,7 @@ animalesDistintos_m
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
-
+# Los animales que no se encutran en ambos conjuntos son aquellos que hacen referencia a nombres de animales prehistóricos, entonces supongo que será por una diferente concepción de el tiempo en cuanto a la categorización de lo animales.
 
 
 
